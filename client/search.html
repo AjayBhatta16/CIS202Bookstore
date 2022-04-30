@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width">
+  <title>Search for a Book</title>
+  <link href="style.css" rel="stylesheet" type="text/css" />
+  <!-- Latest compiled and minified CSS -->
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
+  <!-- jQuery library -->
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+  <!-- Latest compiled JavaScript -->
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js">  </script>
+</head>
+
+<body>
+  <div id="search" class="container">
+    <h1>Search for a Book</h1>
+    <form>
+      <div class="form-group">
+    <label for="searchby">Search By: </label>
+    <select class="form-control" id="searchby">
+      <option>ISBN</option>
+      <option>Title</option>
+      <option>Author</option>
+    </select>
+  </div>
+      <div class="form-group">
+        <label for="value"></label>
+        <input type="text" class="form-control" id="value" placeholder="value">
+      </div>
+      <button type="submit" class="btn btn-primary">Search</button>
+    </form>
+  </div>
+  <div id="results" hidden="true" class="container">
+    <h1>Search Results</h1>  
+  </div>
+  <div id="order" hidden="true" class="container">
+    <h1>Place an Order</h1>
+    <form>
+      <label id="bookname"></label>
+      <div class="form-group">
+        <label for="custID">Customer ID</label>
+        <input type="text" class="form-control" id="custID" placeholder="Customer ID">
+      </div>
+      <label id="price"></label><br>
+      <button type="submit" class="btn btn-primary">Place Order</button>
+    </form>
+  </div>
+  <script src="script.js"></script>
+</body>
+
+</html>

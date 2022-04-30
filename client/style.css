@@ -1,0 +1,33 @@
+@import url('https://fonts.googleapis.com/css2?family=Beau+Rivage&display=swap');
+html, body, * {
+  background-color: #333;
+}
+#home, #search, #order, #results {
+  max-width: 400px;
+  margin: auto;
+  margin-top: 50px;
+  text-align: center;
+}
+#home > h1, #search > h1, #order > h1, #results > h1 {
+  font-family: 'Beau Rivage';
+  font-weight: bold;
+  color: #ddd;
+}
+button {
+  padding: 10px;
+  border-radius: 50%;
+  margin-top: 20px;
+  margin-bottom: 20px;
+}
+label, p {
+  text-align: left;
+  color: #ddd;
+}
+
+.card-body {
+  text-align: left;
+  color: #ddd;
+  border: 1px solid #ddd;
+  border-radius: 5px;
+  padding: 10px;
+}
