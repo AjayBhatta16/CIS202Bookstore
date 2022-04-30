@@ -1,0 +1,52 @@
+{"books": [
+  {
+    "publisher": "Farrar, Straus and Giroux",
+    "isbn": "9780374710453",
+    "title": "The Weirdest People in the world",
+    "author": "Joseph Henrich",
+    "category": "textbook",
+    "shelfLoc": "1A",
+    "quantity": 10,
+    "price": 12.99
+  },
+  {
+    "publisher": "Cengage Learning",
+    "isbn": "9780357025765",
+    "title": "New Perspectives Excel",
+    "author": "Patrick Carey",
+    "category": "textbook",
+    "shelfLoc": "6F",
+    "quantity": 2,
+    "price": 43.49
+  },
+  {
+    "publisher": "Pearson",
+    "isbn": "9781576761700",
+    "title": "C By Discovery",
+    "author": "L.S. Foster",
+    "category": "textbook, programming",
+    "shelfLoc": "39C",
+    "quantity": 0,
+    "price": 99.99
+  },
+  {
+    "publisher": "Pearson",
+    "isbn": "9780131420441",
+    "title": "Assembly Programming Language",
+    "author": "Robert Britton",
+    "category": "textbook, programming",
+    "shelfLoc": "23A",
+    "quantity": 10,
+    "price": 83.48
+  },
+  {
+    "publisher": "Pearson",
+    "isbn": "9780134873527",
+    "title": "Fundamentals of MIS",
+    "author": "Jane Laudon",
+    "category": "textbook",
+    "shelfLoc": "2S",
+    "quantity": 1,
+    "price": 165.32
+  }
+]}
